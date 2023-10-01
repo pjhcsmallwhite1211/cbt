@@ -1,0 +1,69 @@
+QTabWidget {
+    background-color: #333333;
+    color: white;
+    border-style: hidden;
+
+}
+
+QTabBar::tab {
+    background-color: #656464;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTabBar::tab:hover {
+    background-color: #888888;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+QTabBar::tab:selected {
+    background-color: #424242;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QPushButton {
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 8px;
+    border-style: double;
+    padding: 10px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 400;
+}
+
+QPushButton:hover {
+    background-color: #424242;
+    border-color: aqua;
+}
+
+QTextEdit {
+    background-color: #424242;
+    color: white;
+    border-style: outset;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-style: bold;
+}
+
+QLabel {
+    background-color: #424242;
+    color: white;
+    border-radius: 8px;
+    border-style: outset;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-style: bold;
+}
+
+QFrame {
+    background-color: #333333
+}
